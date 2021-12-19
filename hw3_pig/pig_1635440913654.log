@@ -1,0 +1,54 @@
+Pig Stack Trace
+---------------
+ERROR 1200: <line 33, column 86>  Unexpected character ' '
+
+Failed to parse: <line 33, column 86>  Unexpected character ' '
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:246)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:182)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1792)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1765)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:708)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1110)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:512)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:564)
+	at org.apache.pig.Main.main(Main.java:175)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: <line 33, column 0>  mismatched input 'all' expecting EOF
+
+Failed to parse: <line 33, column 0>  mismatched input 'all' expecting EOF
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:244)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:182)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1792)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1765)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:708)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1110)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:512)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:564)
+	at org.apache.pig.Main.main(Main.java:175)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: <line 33, column 20>  Syntax error, unexpected symbol at or near 'all'
+
+Failed to parse: <line 33, column 20>  Syntax error, unexpected symbol at or near 'all'
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:244)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:182)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1792)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1765)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:708)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1110)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:512)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:230)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:205)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:66)
+	at org.apache.pig.Main.run(Main.java:564)
+	at org.apache.pig.Main.main(Main.java:175)
+================================================================================
